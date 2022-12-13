@@ -1,9 +1,9 @@
 message = 5
-chicken = 10
-output = chicken * 3
+condition = 25
 
-message = message - 1
-
+if condition > 0 then
+    message = 1
+end
 
 function love.draw()
     love.graphics.setFont(love.graphics.newFont(50))
