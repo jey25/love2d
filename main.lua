@@ -1,11 +1,11 @@
 message = 0
 
-function increaseMessage(...)
-    message = message + 5
+function increaseMessage(i)
+    message = message + i
     -- body
 end
 
-increaseMessage()
+increaseMessage(25)
 
 function love.draw()
     love.graphics.setFont(love.graphics.newFont(50))
