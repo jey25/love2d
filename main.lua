@@ -1,5 +1,7 @@
 message = 0
 
+
+
 function increaseMessage(i)
     message = message + i
     -- body
