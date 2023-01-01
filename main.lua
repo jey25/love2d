@@ -1,4 +1,5 @@
 message = 0
+
 count = 0
 
 function increaseMessage(i)
