@@ -16,6 +16,7 @@ end
 message = double(12)
 count = double(24)
 
+
 function love.draw()
     love.graphics.setFont(love.graphics.newFont(50))
     love.graphics.print(message)
