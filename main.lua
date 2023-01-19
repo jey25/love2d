@@ -14,7 +14,7 @@ function double(val)
 end
 
 message = double(12)
-count = double(24)
+
 
 
 function love.draw()
