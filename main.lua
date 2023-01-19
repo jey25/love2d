@@ -1,18 +1,4 @@
 message = 0
-count = 0
-
-function increaseMessage(i)
-    message = message + i
-    -- body
-end
-
-function double(val)
-    val = val * 2
-    return val
-    -- body
-end
-
-message = double(12)
 
 
 function love.draw()
