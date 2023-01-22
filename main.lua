@@ -6,6 +6,7 @@ testScore[1] = 95
 
 message = testScore[1]
 
+
 function jaykim()
     if size == 3 then
         return true
