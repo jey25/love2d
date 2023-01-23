@@ -1,7 +1,6 @@
 message = 0
 
 testScore = {}
-
 testScore[1] = 95
 
 message = testScore[1]
