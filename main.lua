@@ -13,11 +13,9 @@ function jaykim()
         return false
     end
 
-
 end
 
 function love.draw()
-
 
     love.graphics.setFont(love.graphics.newFont(150))
     love.graphics.print(message)
