@@ -1,22 +1,12 @@
-message = 0
 
-testScore = {}
-testScore[1] = 95
-
-message = testScore[1]
-
-
-function jaykim()
-    if size == 3 then
-        return true
-    else
-        return false
-    end
-
+function love.load()
+    number = 0
 end
 
-function love.draw()
+function love.update( dt )
+    number = number + 1
+end
 
-    love.graphics.setFont(love.graphics.newFont(150))
-    love.graphics.print(message)
+function love.draw(  )
+    love.graphics.print(number)
 end
